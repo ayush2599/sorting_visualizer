@@ -1,0 +1,85 @@
+.array-container {
+  position: relative;
+  margin-left: 200px;
+  margin-top: 30px;
+  height: 510px;
+  padding: 40px 20px 20px 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 3.16), 0 3px 6px rgba(0, 0, 0, 3.23);
+}
+
+.array-bar {
+  width: 3px;
+  bottom: 0px;
+  display: inline-block;
+  position: relative;
+  margin: 0 2px;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font: 15px "Century Gothic", Futura, sans-serif;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #0c8fa6;
+}
+.icon {
+  padding: 10px;
+}
+a:hover {
+  color: #0c8fa6;
+}
+.buttons {
+  background-image: linear-gradient(#12c1e0, #0c8fa6, #043f4a, #033038);
+  width: 250px;
+  margin: 0;
+  height: 580px;
+  position: relative;
+  bottom: 0;
+  padding-top: 50px;
+}
+.buttons button {
+  background-color: #0dd1b4;
+  border: none;
+  color: #000;
+
+  box-shadow: 0px 2px 0 #064a40, 2px 4px 6px #064a40;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  display: block;
+  font: 15px "Century Gothic", Futura, sans-serif;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+.buttons button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-reset {
+  background-color: rgb(255, 169, 8);
+}
+
+.heading {
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 0px;
+  padding: 1px;
+}
+
+.buttons button:hover {
+  background-color: #084f45;
+  color: #fff;
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
